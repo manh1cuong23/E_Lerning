@@ -1,0 +1,199 @@
+HTML CSSResult Skip Results Iframe
+/*Box Model Hack*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body{
+  font:Arial;
+}
+
+.wrapper{
+  width:100%;
+}
+
+.skype{
+  width:450px;
+  padding:25px;
+  float:left;
+  min-height:450px;
+  margin-left:auto;
+  margin-right:auto;
+  background:transparent;
+  border-right:1px solid #CCC;
+}
+
+.chat-container{
+  float:left;
+  padding:25px;
+  width:700px;
+  min-height:450px;
+  background:transparent;
+}
+
+.header{
+  width:100%;
+  background:transparent;
+  height:35px;
+  padding:10px;
+  border-bottom:1px solid #CCC;
+}
+
+.status{
+  float:left;
+}
+
+.status-icon{}
+
+.status-icon:before{
+  content:'';
+  width:20px;
+  height:20px;
+  display:inline-block;
+  background:#DDD;
+  vertical-align: middle;
+}
+
+.favorite-icon{}
+
+.favorite-icon:before{
+  content:'\f006';
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  width:20px;
+  line-height:21px;
+  height:20px;
+  display:inline-block;
+  background:transparent;
+  vertical-align: middle;
+}
+
+.user{
+    float:left;
+}
+
+.username{
+  display:inline-block;
+  margin-left:15px;
+  font-weight:800;
+  line-height:20px;
+}
+
+.credit{
+  float:right;
+  font-weight:300;
+}
+
+.credit:before{
+  content:'€';
+}
+
+.nav{
+  width:100%;
+  padding:10px;
+}
+
+.nav li:first-child{
+  padding-left:15%;
+}
+
+.nav li:last-child{
+  padding-right:0;
+}
+
+.nav li{
+  float:left;
+  padding-right:15%;
+}
+
+.nav li i{
+  font-size:8px;
+}
+
+.searchbar{
+  position:relative;
+}
+.searchicon{
+  position:absolute;
+  color:#DDD;
+  top:13px;
+  left:10px;
+}
+.search{
+  width:100%;
+  padding:6px 15px 6px 30px;
+  margin:3px;
+  background: 
+}
+
+.left-container{
+  width:100%;
+  margin:5px;
+  padding:15px;
+  min-height:600px;
+  border:1px solid #DDD;
+}
+
+.contact-info{
+  background:#54B7CB;
+  width:100%;
+  margin:5px auto;
+  padding:15px;
+  min-height:150px;
+}
+
+.contact-buttons{
+  width:100%;
+  overflow:hidden;
+  border-bottom:1px solid #DDD;
+}
+
+.button{
+  position:relative;
+  border-radius:25px;
+  border-radius:25px;
+  padding:5px 15px 5px 15px;
+  margin:5px;
+  float:left;
+}
+
+.call{
+  color:#FFF;
+  background:#68CE01;
+}
+.video:before{
+  content:'\f03d\00a0\00a0';
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.phone:before{
+  content:'\f095\00a0\00a0';
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.choose{
+}
+
+.choose:after{
+  content:'\f0d7';
+  font-family: FontAwesome;
+  background:;
+  position:relative;
+  margin-left:10px;
+  padding-left:5px;
+  border-left:1px solid #FFF;
+}
+
+.other{
+  border:1px solid #DDD;
+  float:left;
+}
+
+
